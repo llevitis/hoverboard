@@ -1,16 +1,16 @@
 {
   "basepath": "/",
-  "url": "https://hoverboard-master.firebaseapp.com/",
-  "analytics": "UA-43643469-9",
+  "url": "https://ohbm-brainhack-2020.firebaseapp.com/",
+  "analytics": "UA-43643469-8",
   "prefix": "/",
   "firebase": {
-    "appId": "1:516409946568:web:ad5a56d452fc421c",
-    "apiKey": "AIzaSyCaSkhtHekxAqXXzzbuNs2s6CpGdhZdta8",
-    "authDomain": "hoverboard-master.firebaseapp.com",
-    "databaseURL": "https://hoverboard-master.firebaseio.com",
-    "projectId": "hoverboard-master",
-    "storageBucket": "hoverboard-master.appspot.com",
-    "messagingSenderId": "516409946568"
+    "appId": "1:888134486822:web:4257e76923fa16dcb68fe7",
+    "apiKey": "AIzaSyDgYx_3QEDT9dfusD9mXIz85UmQiFVhet4",
+    "authDomain": "ohbm-brainhack-2020.firebaseapp.com",
+    "databaseURL": "https://ohbm-brainhack-2020.firebaseio.com",
+    "projectId": "ohbm-brainhack-2020",
+    "storageBucket": "ohbm-brainhack-2020.appspot.com",
+    "messagingSenderId": "888134486822"
   },
-  "googleMapApiKey": "AIzaSyCaSkhtHekxAqXXzzbuNs2s6CpGdhZdta8"
+  "googleMapApiKey": "AIzaSyBu9LI-hY4NfUOPJJKuV3BfQm7edLr2-aE"
 }

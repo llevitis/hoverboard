@@ -4,54 +4,34 @@
   },
   "firestore": {
     "rules": "firestore.rules",
-    "indexes": "firestore.indexes.json"
+    "indexes": "y"
   },
   "hosting": {
-    "public": "./build",
-    "redirects": [{
-      "source": "/index.html",
-      "destination": "/",
-      "type" : 301
-    }],
-    "rewrites": [{
-      "source": "**",
-      "function": "prerender"
-    }],
+    "public": "build/",
     "ignore": [
-      "/test/**",
-      "bower.json",
-      "database.rules.json",
       "firebase.json",
-      "README.md"
-    ],
-    "headers": [
-      {
-        "source": "**",
-        "headers": [
-          {
-            "key": "X-Content-Type-Options",
-            "value": "nosniff"
-          },
-          {
-            "key": "X-Frame-Options",
-            "value": "DENY"
-          },
-          {
-            "key": "X-XSS-Protection",
-            "value": "1; mode=block"
-          },
-          {
-            "key": "Referrer-Policy",
-            "value": "same-origin"
-          }
-        ]
-      }
+      "**/.*",
+      "**/node_modules/**"
     ]
   },
-  "functions": {
-    "predeploy": [
-      "npm run predeploy",
-      "npm --prefix ./functions run build"
-    ]
+  "storage": {
+    "rules": "storage.rules"
+  },
+  "emulators": {
+    "functions": {
+      "port": 5001
+    },
+    "firestore": {
+      "port": 8080
+    },
+    "database": {
+      "port": 9000
+    },
+    "hosting": {
+      "port": 5000
+    },
+    "pubsub": {
+      "port": 8085
+    }
   }
 }
