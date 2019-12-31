@@ -53,7 +53,7 @@
       ]
     },
     {
-      "title": "Explore Past OHBM Brainhack Events",
+      "title": "Explore Past OHBM Brainhacks",
       "links": [
         {
           "name": "OHBM Brainhack 2019",
@@ -225,7 +225,7 @@
     "toast": "Successfully subscribed!"
   },
   "team": {
-    "description": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Lviv](http://lviv.gdg.org.ua/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT."
+    "description": "The OHBM Open Science SIG mission is to advance neuroimaging research by fostering the open sharing of ideas, data, and tools between members of the OHBM community. This will be accomplished by organizing educational events, supporting collaborative initiatives, and providing mentorship to junior researchers. In our first year, the SIG will focus on three contributions to the OHBM annual meeting: 1) organize a Hackathon to precede the annual meeting, 2) introduce the tools of open science by proposing a “Brainhacking 101” educational course, and 3) propose hands-on tutorials and collaborative Open Science projects during the OHBM conference."
   },
   "schedule": {
     "saveSessionsSignedOut": "Sign in to save sessions"

@@ -104,7 +104,7 @@
     },
     "coc": {
       "title": "Code of Conduct",
-      "metaDescription": "Lear more about our expectations for all those who participate in our community",
+      "metaDescription": "Learn more about our expectations for all those who participate in our community",
       "background": {
         "color": "#fff"
       },
@@ -113,20 +113,20 @@
   },
   "location": {
     "label": "Location",
-    "name": "Planeta kino",
-    "city": "Lviv",
-    "short": "Lviv, Ukraine",
-    "address": "36 Shchyretska St, Lviv, Ukraine",
+    "name": "Centre Phi",
+    "city": "Montreal",
+    "short": "Montreal, Quebec, Canada",
+    "address": "407 Rue Saint-Pierre, Montréal, QC, H2Y 2M3",
     "pointer": {
-      "latitude": 49.809841,
-      "longitude": 23.972805,
+      "latitude": 45.501476,
+      "longitude": -73.5586237,
       "zoom": 5
     },
     "mapCenter": {
-      "latitude": 48,
-      "longitude": 8
+      "latitude": 45,
+      "longitude": -73
     },
-    "description": "Newly built Pivdennyi Expo is a long-awaited exhibition center in Lviv, which can fulfill the needs of the large-scale event"
+    "description": "A multifunctional centre in Montreal where art can express itself in its various forms: art, film, music, design and technology"
   },
   "mediaQueries": {
     "xs": {

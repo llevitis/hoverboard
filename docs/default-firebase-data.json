@@ -1417,156 +1417,161 @@
   },
   "team" : [ {
     "members" : [ {
-      "name" : "Oleh Zasadnyy",
-      "photo" : "/images/people/oleh_zasadnyy.jpg",
-      "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/oleh_zasadnyy.jpg",
+      "name" : "Liza Levitis",
+      "photo" : "/images/people/liza_levitis.jpg",
+      "photoUrl" : "https://pbs.twimg.com/profile_images/1198688244298334213/BKPnE0M0_400x400.jpg",
       "socials" : [ {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/oleh.zasadnyy",
-        "name" : "Facebook"
-      }, {
         "icon" : "twitter",
-        "link" : "https://twitter.com/ozasadnyy",
+        "link" : "https://www.twitter.com/LevitisLiza",
         "name" : "Twitter"
-      }, {
-        "icon" : "website",
-        "link" : "http://o.zasadnyy.com/",
-        "name" : "Blog"
       } ],
       "order" : 0,
-      "title" : "Website and sponsors"
+      "title" : "Hackathon Co-chair"
     }, {
-      "name" : "Sofiya Huts",
-      "photo" : "/images/people/sofiya_huts.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fsofiya_huts.jpg?alt=media&token=a911eafb-f709-4af7-b1cb-58a6604b70d1",
+      "name" : "Remi Gau",
+      "photo" : "/images/people/remi_gau.jpg",
+      "photoUrl" : "https://pbs.twimg.com/profile_images/458987349263659009/F-WAnC3c_400x400.jpeg",
       "socials" : [ {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/sophie.huts.7",
-        "name" : "Facebook"
-      } ],
-      "order" : 1,
-      "title" : "Social and media"
-    }, {
-      "name" : "Vitaliy Zasadnyy",
-      "photo" : "/images/people/vitaliy_zasadnyy.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fvitaliy_zasadnyy.jpg?alt=media&token=930e05c8-ae43-4628-8d4c-3e8f5193cda3",
-      "socials" : [ {
-        "icon" : "linkedin",
-        "link" : "https://www.linkedin.com/in/zasadnyy",
-        "name" : "Linkedin"
-      }, {
         "icon" : "twitter",
-        "link" : "https://twitter.com/zasadnyy",
+        "link" : "https://twitter.com/RemiGau",
         "name" : "Twitter"
-      }, {
-        "icon" : "website",
-        "link" : "http://v.zasadnyy.com/",
-        "name" : "Blog"
-      } ],
-      "order" : 2,
-      "title" : "Speakers"
+      }],
+      "order" : 1,
+      "title" : "Hackathon Co-chair"
     }, {
-      "name" : "Marta Maxymiak",
-      "photo" : "/images/people/marta_maxymiak.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fmarta_maxymiak.jpg?alt=media&token=6532f039-7f86-4304-8558-dbfbb3ae8d68",
+      "name" : "Camille Maumet",
+      "photo" : "/images/people/camille_maumet.jpg",
+      "photoUrl" : "https://pbs.twimg.com/profile_images/895202857514872832/9a0Kxwkn_400x400.jpg",
       "socials" : [ {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/marta.maxymiak",
-        "name" : "Facebook"
+        "icon" : "twitter",
+        "link" : "https://twitter.com/cmaumet",
+        "name" : "Twitter"
+      }],
+      "order" : 2,
+      "title" : "Chair"
+    }, {
+      "name" : "Ana Van Gulick",
+      "photo" : "/images/people/ana_van_gulick.jpg",
+      "photoUrl" : "https://pbs.twimg.com/profile_images/481882882600730624/jwqnva-P_400x400.jpeg",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/anavangulick",
+        "name" : "Twitter"
       } ],
       "order" : 3,
-      "title" : "Party and happiness"
+      "title" : "Secretary"
     }, {
-      "name" : "Ostap Andrusiv",
-      "photo" : "/images/people/ostap_andrusiv.jpg",
-      "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/ostap_andrusiv.jpg",
+      "name" : "Eugene Duff",
+      "photo" : "/images/people/eugene_duff.jpg",
+      "photoUrl" : "https://www.paediatrics.ox.ac.uk/team/eugene-duff/@@haiku.profiles.portrait/d4b8f784c8c544c89d8d20f2173fed22/@@images/image/w1140?aabd6fe2-4e7d-4152-b5c4-2029c1cb2406",
       "socials" : [ {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/ostap.andrusiv",
-        "name" : "Facebook"
-      }, {
         "icon" : "twitter",
-        "link" : "https://twitter.com/p1f",
+        "link" : "https://twitter.com/EugenePDuff",
         "name" : "Twitter"
-      }, {
-        "icon" : "website",
-        "link" : "http://andrusiv.com/",
-        "name" : "Blog"
       } ],
       "order" : 4,
-      "title" : "Sponsors"
+      "title" : "Treasurer"
     }, {
-      "name" : "Vasylyna Mytsak",
-      "photo" : "/images/people/vasylyna_mytsak.jpg",
-      "photoUrl" : "https://storage.googleapis.com/hoverboard-experimental.appspot.com/images/people/optim/vasylyna_mytsak.jpg",
+      "name" : "Cassandra Gould van Praag ",
+      "photo" : "/images/people/cass_gvp.jpg",
+      "photoUrl" : "https://pbs.twimg.com/profile_images/1126936647113879552/DjqKDq36_400x400.jpg",
       "socials" : [ {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/vasylyna.mytsak",
-        "name" : "Facebook"
+        "icon" : "twitter",
+        "link" : "https://www.twitter.com/cassgvp",
+        "name" : "Twitter"
       } ],
       "order" : 5,
-      "title" : "Party and happiness"
+      "title" : "Open Science Room Organizer"
     }, {
-      "name" : "Volodya Karpliuk",
-      "photo" : "/images/people/volodya_karpliuk.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fvolodya_karpliuk.jpg?alt=media&token=aa08d9c9-c42a-435f-8672-c3a004e3aa08",
+      "name" : "Stephan Heunis",
+      "photo" : "/images/people/stephan_heunis.jpg",
+      "photoUrl" : "https://pbs.twimg.com/profile_images/1136413428388491265/EwYRs-Xu_400x400.jpg",
       "socials" : [ {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/volodya.karpluk",
-        "name" : "Facebook"
-      }, {
         "icon" : "twitter",
-        "link" : "https://twitter.com/keyv23",
+        "link" : "https://twitter.com/fmrwhy",
         "name" : "Twitter"
       } ],
       "order" : 6,
-      "title" : "Speakers"
+      "title" : "Open Science Room Organizer"
     }, {
-      "name" : "Diana Pinchuk",
-      "photo" : "/images/people/diana_pinchuk.jpg",
-      "photoUrl" : "https://firebasestorage.googleapis.com/v0/b/hoverboard-experimental.appspot.com/o/images%2Fpeople%2Fdiana_pinchuk.jpg?alt=media&token=189d67d1-004f-4a3c-9e0c-13bc992bbaf7",
+      "name" : "Kirstie Whitaker",
+      "photo" : "/images/people/kirstie_whitaker.jpg",
+      "photoUrl" : "https://pbs.twimg.com/profile_images/599173943405223937/oNvZRB25_400x400.jpg",
       "socials" : [ {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/diana.pinchuk.9",
-        "name" : "Facebook"
+        "icon" : "twitter",
+        "link" : "https://twitter.com/kirstie_j",
+        "name" : "Twitter"
       } ],
       "order" : 7,
-      "title" : "Social and media"
-    } ],
-    "title" : "Core Team"
-  }, {
-    "members" : [ {
-      "name" : "Ihor Dvoretskyi",
-      "photo" : "/images/people/ihor_dvoretskyi.jpg",
-      "photoUrl" : "",
-      "socials" : [ {
-        "icon" : "facebook",
-        "link" : "https://www.facebook.com/idvoretskyi",
-        "name" : "Facebook"
-      }, {
-        "icon" : "twitter",
-        "link" : "https://twitter.com/idvoretskyi",
-        "name" : "Twitter"
-      } ],
-      "order" : 0,
-      "title" : "Cloud stream"
+      "title" : "Past Chair"
     }, {
-      "name" : "Dmytro Danylyk",
-      "photo" : "/images/people/dmytro_danylyk.jpg",
-      "photoUrl" : "",
+      "name" : "Elizabeth DuPre",
+      "photo" : "/images/people/elizabeth_dupre.jpg",
+      "photoUrl" : "https://pbs.twimg.com/profile_images/900078648035872768/OVQx8VwQ_400x400.jpg",
       "socials" : [ {
         "icon" : "twitter",
-        "link" : "https://twitter.com/dmytrodanylyk",
+        "link" : "https://twitter.com/emdupre_",
         "name" : "Twitter"
-      }, {
-        "icon" : "website",
-        "link" : "http://www.dmytrodanylyk.com/#/about",
-        "name" : "Website"
       } ],
-      "order" : 1,
-      "title" : "Android Stream"
-    } ],
-    "title" : "Program Committee"
+      "order" : 8,
+      "title" : "Past Secretary"
+    }, {
+      "name" : "Greg Kiar ",
+      "photo" : "/images/people/greg_kiar.jpg",
+      "photoUrl" : "https://pbs.twimg.com/profile_images/994026317959049217/tXBlrw_l_400x400.jpg",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/g_kiar",
+        "name" : "Twitter"
+      } ],
+      "order" : 9,
+      "title" : "Past Treasurer"
+    }, {
+      "name" : "Aki Nikolaidis",
+      "photo" : "/images/people/aki_nikolaidis.jpg",
+      "photoUrl" : "https://pbs.twimg.com/profile_images/1009985934027194374/IugtrYlO_400x400.jpg",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/AkiNikolaidis",
+        "name" : "Twitter"
+      } ],
+      "order" : 10,
+      "title" : "Chair Elect"
+    }, {
+      "name" : "Katie Bottenhorn",
+      "photo" : "/images/people/katie_bottenhorn.jpg",
+      "photoUrl" : "https://pbs.twimg.com/profile_images/954101455136239616/W2-_FUa-_400x400.jpg",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/62442katieb",
+        "name" : "Twitter"
+      } ],
+      "order" : 11,
+      "title" : "Secretary Elect"
+    }, { 
+      "name" : "Tristan Glatard",
+      "photo" : "/images/people/tristan_glatard.jpg",
+      "photoUrl" : "https://pbs.twimg.com/profile_images/778440405356392449/Ohil9w3S_400x400.jpg",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/TristanGlatard",
+        "name" : "Twitter"
+      } ],
+      "order" : 12,
+      "title" : "Treasurer Elect"
+    }, { 
+      "name" : "Thomas Nichols ",
+      "photo" : "/images/people/thomas_nichols.jpg",
+      "photoUrl" : "https://pbs.twimg.com/profile_images/913742844313075712/1ckEnTrC_400x400.jpg",
+      "socials" : [ {
+        "icon" : "twitter",
+        "link" : "https://twitter.com/ten_photos",
+        "name" : "Twitter"
+      } ],
+      "order" : 13,
+      "title" : "Council Liaison"
+    }],
+    "title" : "OHBM Open Science Special Interest Group Officers"
   } ],
   "tickets" : [ {
     "available" : true,
