@@ -1,142 +1,108 @@
-<p align="center">
-<img width="800px" src="https://user-images.githubusercontent.com/2954281/42683571-55ba6be6-8696-11e8-8ff7-e9acd0db63e8.png">
-</p>
-<p align="center">
-<a href="https://hoverboard-master.firebaseapp.com" align="center">:zap: Live demo</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-<a href="#getting-started">:rocket: Get Started</a>
-</p>
+Join us on <a href="https://mattermost.brainhack.org/signup_user_complete/?id=orpd9qqjb7gqpnwg5k1fdagrq"><img src="http://www.mattermost.org/wp-content/uploads/2016/03/logoHorizontal.png" width=100px />  </a>
 
-[![Build Status](https://travis-ci.org/gdg-x/hoverboard.svg?branch=master)](https://travis-ci.org/gdg-x/hoverboard) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgdg-x%2Fhoverboard.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgdg-x%2Fhoverboard?ref=badge_shield)[![Codacy Badge](https://api.codacy.com/project/badge/Grade/7973ac656dc94e42858ce640bb02de58)](https://www.codacy.com/app/pamuditha/hoverboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=pamuditha/hoverboard&amp;utm_campaign=Badge_Grade)
+<!-- TOC -->
 
-## Overview
-Project Hoverboard is the conference website template that helps you to set up a mobile-first conference website with blog, speaker and schedule management in a few minutes.
+- [OHBM 2020 Hackathon](#OHBM-2020-Hackathon)
+  - [What is a hackathon?](#what-is-a-hackathon)
+  - [What kind of projects can you find in a hackathon?](#what-kind-of-projects-can-you-find-in-a-hackathon)
+  - [Suggest a project](#suggest-a-project)
+    - [Using github issues to create a projet](#using-github-issues-to-create-a-projet)
+      - [Label your project](#label-your-project)
+  - [Tips to run a successful hackathon](#tips-to-run-a-successful-hackathon)
+  - [Questions?](#questions)
 
-The template is created based on 7 years of [GDG Lviv](https://www.meetup.com/GDG-Lviv/) team experience of running conferences and feedback from more than 500 event organizers from all around the world who were using previous Hoverboard versions.
+<!-- /TOC -->
 
-Our goal is to allow event organizers to set up a professional conference website with minimum resources. To get started you need only basic knowledge of web technologies and a free Firebase account.
+# OHBM 2020 Hackathon
 
-## Features
-| Feature | Description |
-|---|---|
-| **Fast and optimized** | 91/100 PWA on [Lighthouse](https://www.webpagetest.org/lighthouse.php?test=180111_1P_027a041bc5102982f074014807320a86&run=3) |
-| **Works offline** | shitty WiFi on the venue is not a problem anymore |
-| **Mobile-first** | layouts optimized for small screens, Hoverboard can be installed as a native app on your phone |
-| **Push notifications** | remind about sessions in My schedule, session feedback or target users with a custom message |
-| **SEO optimized** | index all content and get to the top in search results |
-| **Speakers and schedule management** | keep and update all information in the  Firebase |
-| **My schedule** | let attendees save sessions they want to visit |
-| **Customizable theme** | change colors to match your style |
-| **Blog** | post announcements, updates and useful information |
+This repository hosts the hackathon projects and communication related to the OHBM 2020 hackathon.
 
-## Getting Started
-1. [Fork repository](https://github.com/gdg-x/hoverboard/fork) and clone your fork locally
-1. Install [Node.js (v10+)](https://nodejs.org/en/download/)
-1. Install project dependencies: `npm install` or `yarn`
-1. Create [Firebase account](https://console.firebase.google.com) and login into [Firebase CLI](https://firebase.google.com/docs/cli/): `npx firebase login`
-1. Update [Hoverboard config](/config) and [Resources](/data)
-1. Import initial data to the Firebase Database
-    * Generate `serviceAccount.json` file
-      - Go to [console.firebase.google.com](https://console.firebase.google.com) -> Project settings -> Service accounts
-      - Ensure that **Node.js** is selected and press **Generate new private key**
-      - Read the warning and press **Generate key**
-      - Save the file as `serviceAccount.json` and to the root of your hoverboard directory (❗Do NOT commit this file to the public repository)
-    * Enable Firestore in web console at [console.firebase.google.com](https://console.firebase.google.com) -> Database -> Cloud Firestore -> Create database. Select **locked mode** and press **Enable**
-    * [Optional] You can edit `docs/default-firebase-data.json)` file using your own data
-	  * Select your Firebase project `npx firebase use <YOUR_PROJECT_ID>`
-    * Run `npm run firestore:init` or `yarn firestore:init`
-1. Run locally
-   * `npm start` or `yarn start`
-1. Build and deploy
-   * `npm run build` or `yarn build`
-   * `npm run deploy` or `yarn deploy`
+In order to take part in the HackTrack, you will first have to register for the event. After that, you can suggest a project to lead at the OHBM 2020 hackathon, or join a project that has already been suggested.
 
-*NOTE:* By default command using configurations from `/configs/development.json`.
-To serve locally or deploy the production app use `yarn start:prod` and `yarn deploy:prod` respectively.
+At the beginning of our event, all project leaders will briefly describe their project to recruit team members.
+If you are interested in a certain project, you can approach these project leaders afterwards and express your interest in participating.
+At the end of the openMR event, there will be wrap up of each project with a short presentation to inform attendees about the project progress and future tasks to be done.
 
-:book: Read the [Full Setup Guide](/docs/).
+## What is a hackathon?
 
-### Docker-based development environment
+The word `hackathon` can be split into "hacking" and "marathon”.
 
-If you don't want to bother with the dependencies, you can use the docker container for development.
+A <i>hackathon</i> can then be defined as an event in which you can intensively (that's the **marathon** part) and collaboratively work (that's the **hacking** part) on a common project. Hackathons are different than the typical academic conference sessions because individuals will be actively trying to accomplish something rather than merely attending. As a rule of thumb, think of hackathon attendees as saying "I am here to help" and of a hackathon leader being able to tell them "here's what you can do to help."
 
-:book: Read more in [docker docs](/docs/tutorials/05-docker.md).
+**Although many hackathon projects might involve coding, it is not necessarily the case and many projects can be done using only google docs for example.**
 
-## Updating
-Here is a git workflow for updating your fork (or downloaded copy) to the latest version:
+After the hackathon, you can keep collaborating to finish the project and even decide to publish it depending on the predefined goals.
 
-```console
-git remote add upstream https://github.com/gdg-x/hoverboard.git
-git fetch upstream
-git merge upstream/master
-# resolve the merge conflicts in your editor
-git add . -u
-git commit -m 'Updated to the latest version'
-```
+## What kind of projects can you find in a hackathon?
 
-## Documentation
+The projects can be things the project leader is already working on, or a project they would like to receive contribution/opinion/help, or a completely new project they would like to accomplish with group work.
 
-The [Getting Started guide](#getting-started) is probably a good first point of call! <br>
-:book: [Full documentation](/docs/).
+You can find example of projects listed in the different [brainhack events](http://www.brainhack.org/) or directly on the websites of previous hackathons :
 
-## Compatibility
+- [BrainHack Ghent 2018](https://brainhackghent.github.io)
+- [OHBM 2019 hackathon](https://github.com/ohbm/hackathon2019/issues)
+- [Brainhack Princeton 2019](https://github.com/brainhack-princeton/brainhack-princeton-2019)
+- [Brainhack Open Geneva 2020]("https://brainhack.ch/#portfolio)
+- ...
 
-:white_check_mark: Compatible with **latest two** version of Chrome, Chrome for Android, Firefox, Opera, Safari, Edge.<br>
-:x: IE and Opera Mini aren't supported.
+If this is not enough, here are some projects that you could propose:
+- improving existing materials to comparing certain methods or creating packages
+- creating youtube videos to present your favorite tool or some of its feature
+- help improve the online documentation of some software (like the [SPM wikibook](https://en.wikibooks.org/wiki/SPM))
+- ...
 
-## Technology Stack
 
-* Polymer 2
-* Redux
-* Firebase
-* Service Worker
-* CSS Grid
+## Suggesting or joining a project
 
-## Contributing
+When you propose a project make sure that it has a rough plan about the amount of work that needs to be done and that it has clear goals that can be (partly) achieved during the (short) amount of time you are provided with.
 
-Awesome! Contributions of all kinds are greatly appreciated. To help smoothen the process we have a few non-exhaustive guidelines to follow which should get you going in no time.
+Since you won’t have any knowledge about the expertise profile of the other Brainhack attendees until the hackathon starts, it is better to incorporate some flexibility into your project plan and schedule. Because there is always a possibility of getting help from any number of attendees on many different aspects of your project that you didn’t plan ahead. Please do not undermine the contribution that would come from any of the attendees at the event. This is one of the important parts of the event. Be inclusive and open to the contributions. Especially if they come from an early career researcher and he/she is there to learn from you; please do not forget that you were one of them once too and that providing people with an environment to learn and improve themselves is one of the main goals and gains of the event. And again you would never be able to know which contribution an attendee could provide you with. Therefore, it is always better to keep yourself open to different ideas and contributions and to let the brainstorming help you achieve your project’s goals.
 
-### Good First Issue
+We explain below how to to propose your own project idea, but you're not sure whether or how to work it out to a full project, please get in touch using our Contact Page and we're happy to help you out!
 
-Issues labeled [`good first issue`](https://github.com/gdg-x/hoverboard/labels/good%20first%20issue) are a great way to ease into development on this project.
+### Using github issues to create a projet
 
-### Help Wanted Label
+Projects are created as `issues` on this GitHub repository to allow for a sensible workflow of project description and communication. For a good example of how this has worked in the past, see the list of projects for the recent [OHBM 2019 Hackathon](https://github.com/ohbm/hackathon2019/issues?page=2&q=is%3Aissue+is%3Aopen).
 
-Any other issue labeled [`help wanted`](https://github.com/gdg-x/hoverboard/labels/help%20wanted) is ready for a PR.
+First, select the `Issue` tab and then click on `New Issue`.
 
-### Using GitHub Issues
+![newissue1](images/landing_page/screenshot1.png)
 
-* Feel free to use GitHub issues for questions, bug reports, and feature requests
-* Use the search feature to check for an existing issue
-* Include as much information as possible and provide any relevant resources (Eg. screenshots)
-* For bug reports ensure you have a reproducible test case
-* A pull request with a breaking test would be super preferable here but isn't required
+Then, select `Get Started` in the `Hackathon Project Template` section.
 
-### Submitting a Pull Request
+![newissue2](images/landing_page/screenshot2.png)
 
-* Squash commits
-* Lint your code with eslint (config provided)
-* Include relevant test updates/additions
+Finally, create a project title, replace the template content with the specifics of your own project, and click on `Submit new issue`.
 
-## Code of Conduct
+![newissue3](images/landing_page/screenshot3.png)
 
-Read the full version [Code of Conduct](/CODE_OF_CONDUCT.md).
 
-## Contributors
-__Maintainer:__ [Abraham Williams](https://github.com/abraham)  
-__Authors:__ [Oleh Zasadnyy](https://github.com/ozasadnyy) and [Sophie Huts](https://github.com/sophieH29).
+#### Label your project
 
-This project exists thanks to all the [people who contribute](https://github.com/gdg-x/hoverboard/graphs/contributors). [[Contribute](CONTRIBUTING.md)].
+We have designed a list of issue labels so that attendees can quickly identify projects that might match their interest and skill levels.
 
-<a href="https://github.com/gdg-x/hoverboard/graphs/contributors"><img src="https://opencollective.com/hoverboard/contributors.svg?width=890" /></a>
+Make good use of those labels and you tag your project appropriately.
 
-## Sponsoring
-Most of the core team members, hoverboard contributors and contributors in the ecosystem do this open-source work in their free time. If you like this project and it makes your life easier, please donate.
-<a href="https://opencollective.com/hoverboard#backers" target="_blank"><img src="https://opencollective.com/hoverboard/backers.svg?width=890"></a>
+![issue_labels](images/landing_page/issue_labels.png)
 
-## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fgdg-x%2Fhoverboard.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fgdg-x%2Fhoverboard?ref=badge_large)
 
-The project is published under the [MIT license](/LICENSE.md).
-Feel free to clone and modify repo as you want, but don't forget to add a reference to authors :)
+## Tips to run a successful hackathon
 
-_GDG[x] is not endorsed and/or supported by Google, the corporation._
+- Be sure to thank people who attend your hackathon! These are the people who are interested in helping.
+- Don’t assume people in the room know more, or less, than you do. You never know who is going to be interested in your session.
+- A great way to start a session is to ask attendees to say why they came to your session or what special skills they have that could be helpful. This can help you steer the session to be helpful to them and gives you an idea of the resources/skills you have in the room!
+- Another good early activity is "whiteboard time": Working out the scope of the project, mapping out the units of the project, and identifying how these units will integrate.
+- Remind people that if they want to swap groups/ leave the room to do something else that's ok and encouraged. This is all about getting the most out of people's enthusiasm and having people feel like they have no choice but to stay can kill that.
+- It can be hard to know how many people will attend each session and what their skills are. To plan for this uncertainty, you may want to prioritize the things the hackathon is trying to accomplish.
+- If you have a large group, break the group down and divide the project into units, and have people elect to work on different components. If you have a smaller group, you can focus on the top priorities.
+- Think about the flow of information and how attendees can share their work with one another.
+- When you break out into groups, it is often a few teams spread around the room working on laptops. Using tools like OSF, google documents, github, Slack, etc. can be useful.
+- Consider getting contact information of people who want to continue the work after SIPS. Sometimes a hackathon can be used as a few hours of in-person planning for work that a few people will do over the course of a longer period of time. You may find a group of dedicated people who will do some follow-up work to your hackathon.
+- Before your hackathon disbands, try to organize any materials that you want to share with others. This might be as simple as assigning somebody to organize an OSF project.
+- If things stall, get a group together and talk through the issues. Drawing diagrams, and talking through what you’re trying to achieve is an important process in identifying roadblocks and how to avoid/resolve them.
+- Have a “deliverable” in mind, what is the thing you can say you’ve made (or at least made progress on) at the end of the hackathon?
+
+
+## Questions?
+
+If you are still uncertain about this process or have any other questions, please create a new (no template) issue. We'll do our best to respond as quickly as possible.
